@@ -13,9 +13,9 @@ planning, review, and implementation workflows.
 
 This repository is in early bootstrap.
 
-The first implementation target is `yllmcode init`, which creates a
-project-local `.yllmcode` directory for planning documents, decision records,
-phase files, policies, prompts, tests, and related project memory.
+The first implemented command is `yllmcode init`, which creates a project-local
+`.yllmcode` directory for planning documents, decision records, phase files,
+policies, prompts, tests, and related project memory.
 
 Current scope:
 
@@ -78,7 +78,7 @@ build from the repository:
 go build ./cmd/yllmcode
 ```
 
-After the first CLI phase lands, run:
+Run the initializer from a project directory:
 
 ```sh
 go run ./cmd/yllmcode init
