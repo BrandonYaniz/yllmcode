@@ -1,8 +1,25 @@
 # Go build output
 /bin/
 /dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 *.test
 *.out
+
+# Test and coverage artifacts
+coverage.*
+*.coverprofile
+profile.cov
+
+# Local Go workspace files
+go.work
+go.work.sum
+
+# Local environment
+.env
 
 # Local editor files
 .DS_Store
