@@ -108,15 +108,15 @@ yllmcode should protect the user's repository by default:
 
 ## Versioning
 
-Date-based versions use `YYYY-MM-DD`.
+Date-based versions use `YYYY.MM.DD`.
 
 Release versions append `-Release`.
 
 If multiple non-release builds are needed on the same day, use a numeric suffix:
 
 ```text
-2026-07-02.01
-2026-07-02.02
+2026.07.02.01
+2026.07.02.02
 ```
 
 ## License
